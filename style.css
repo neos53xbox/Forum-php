@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy');
+
+body {
+    background: #cf8ebf54;
+    background: -webkit-linear-gradient(right, #f6f4df, #f6f4df);
+    background: -moz-linear-gradient(right, #f6f4df, #f6f4df);
+    background: -o-linear-gradient(right, #f6f4df, #f6f4df);
+    background: linear-gradient(to left, #f6f4df, #f6f4df);
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+  }
+
+  table {
+    margin:auto auto;
+    margin-top: 100px;
+    background-color: #3ba592;
+    color: #fff;
+    font-size: 20px;
+    width: 700px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+td {
+  padding-bottom: 10px;
+}
+tr td a:link {
+  color: #52f5be;
+}
+tr td a:visited {
+  color: #4ec5af;
+}
+tr td a:hover{
+  color: #FFD101;
+}
+.table_tittle {
+  border: 2px;
+  border-style: ridge;
+  border-color: #52f5be;
+  border-radius: 5px;
+}
+#account {
+  position: relative;
+  bottom: 330px;
+  left: 100px;
+}
+#account_modif {
+  position: relative; 
+  left: 150px; 
+  top: 35px;
+  border: transparent;
+}
+#account_modif:hover {
+  filter: grayscale(30%) brightness(80%) sepia(60%) hue-rotate(-50deg) saturate(300%) contrast(2);
+}
+#Topic-list {
+  padding-right: 50px;
+}
+
+#Register {
+    top: 60px;
+    bottom: -140px;
+    position: relative;
+    z-index: 1;
+    background: #61bfaef8;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto ;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+    border-radius: 5px;
+}
+
+#post {
+  background-color: #52f5be;
+  width: 350px; /* On a indiqué une largeur (obligatoire) */
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  border: 1px solid black;
+  text-align: justify;
+  padding: 12px;
+  margin-bottom: 20px;
+
+}
+#topic_register {
+  margin: auto;
+  width: 800px;
+  height: 580px;
+}
+#new {
+  position: relative;
+  top: 140px;
+  left: 20px;
+}
+#new2 {
+  position: relative;
+  top: -35px;
+  left: -35px;
+}
+
+
+.Topic_bar:hover {
+  color: #FFD101;;
+}
+#new_texte {
+  position:relative; 
+  left:20px;
+  top:85px; 
+  width:80px; 
+  height:80px ; 
+  z-index:2;
+  font-size:100%;
+  font-family: "Luckiest Guy", sans-serif;
+  color: #ec1e79;
+}
+#new_texte2 {
+  position:relative; 
+  left: -40px;
+  top: -95px; 
+  width:80px; 
+  height:80px ; 
+  z-index:2;
+  font-size:20px;
+  font-family: "Luckiest Guy", sans-serif;
+  color: #ec1e79;
+}
+#create_topic {
+  top: 60px;
+  text-align: center;
+  bottom: -140px;
+  z-index: 1;
+  background: #61bfaef8;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+  border-radius: 5px;
+  width: 700px;
+  height: 580px;
+  margin: auto auto;
+  left: 500px;
+  right: 500px;
+
+}
+#create_topic p {
+  padding-top: 20px;
+}
+#topic {
+  margin: auto;
+  margin-top: 50px;
+  width: 1000px;
+  min-height: 400px;
+  background: #61bfaef8;
+  border-radius: 5px;
+}
+#topic_p {
+  position: relative;
+  left: 20px;
+  bottom:80px ;
+}
+#topic_p a{
+  color: #fff;
+}
+#topic_p h1{
+  color: #fff;
+}
+.account_page {
+  margin: auto;
+  margin-top: 50px;
+  width: 1200px;
+  min-height: 400px;
+  padding-left: 50px;
+  background: #61bfaef8;
+  border-radius: 5px;
+}
+#Account_2{
+  top: 60px;
+  bottom: -140px;
+  position: relative;
+  z-index: 1;
+  background: #61bfaef8;
+  max-width: 500px;
+  height: 550px;
+  margin: 0 auto ;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+  border-radius: 5px;
+}
+.account_page h4{
+  position: relative;
+  bottom: 20px;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #3ba592;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+.register_message {
+    margin: 15px 0 0;
+    color: #42887cf8;
+    font-size: 12px;
+  }
+  .register_message:hover {
+    color: #FFD101;
+  }  
+
+#post {
+  background-color: #52f5be;
+  width: 350px; /* On a indiqué une largeur (obligatoire) */
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  border: 1px solid black;
+  text-align: justify;
+  padding: 12px;
+  margin-bottom: 20px;
+
+}
+#off {
+  padding-top: 14px;  
+  cursor:pointer;
+}
+#off:hover {
+  filter: grayscale(70%) brightness(70%) sepia(60%) hue-rotate(-50deg) saturate(600%) contrast(2);
+}  
+  
+input {
+    width: 290px;
+    height: 15px;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  input:invalid {
+    background: #ffdddd;
+  }
+  input:valid {
+    background: #F9F7E8;
+  }
+ 
+::placeholder {
+    color: #3ba592;
+    text-indent: 245px;
+}  
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: larger;
+}  
+
+
+.up:hover, .up:focus {
+    box-shadow: inset 0 -3.25em 0 0 var(--hover);
+}
+
+.up {
+    --color: #F9F7E8;
+    --hover: #52f5be;
+}
+
+button {
+    color: var(--color);
+    transition: 0.25s;
+    border-radius: 5px;
+}
+button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+}
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+  margin: auto auto;
+  padding: 15px;
+  border-radius: 5px;
+  width: 500px;
+  height: 230px;
+  min-width: 500px;
+  min-height: 230px;
+  max-width: 500px;
+  max-height: 230px;
+}
+textarea:valid {
+  background: #F9F7E8;
+}
+textarea:invalid {
+  background: #ffdddd;
+}
+
+nav{
+  width: 100px;
+  height: 100px;
+  margin: auto auto;
+}
+.deroulant {
+  height: 100px;
+  min-width: 80px;
+  position: relative;
+  z-index: 1200;
+  flex: 1 1 auto;
+  text-align: center;
+  right: 50px;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  min-width: 100px;
+  margin: auto auto;
+  padding-left: 0px;
+}
+
+/* nav ul li{
+  flex: 1 1 auto;
+  text-align: center;
+  width: 100px;
+} */
+
+nav #sous_menu{
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+
+nav #sous_menu:hover{
+  color: #FFD101;
+}
+
+.sous{
+  display: none;
+  /* position: absolute;
+  text-align: center;
+  width: 100px; */
+  z-index: 1200;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+nav > ul li:hover .sous{
+  display: flex;
+}
+.sous li{
+  flex: 1 1 auto;
+  text-align: left;
+  padding-right: 15px;
+}
+.sous a{
+  border-bottom: none;
+}
+.sous a:hover{
+  border-bottom: none;
+}
+.deroulant > a::after{
+  font-size: 12px;
+}
+
+.link:hover{
+  color: #FFD101;
+}
